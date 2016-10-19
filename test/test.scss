@@ -1,0 +1,8 @@
+@import "../dist/webkit-sassui-dot.scss";
+.test-webkit-sassui-dot{
+  @include webkit-sassui-dot();
+}
+
+.test-webkit-sassui-dot-big{
+  @include webkit-sassui-dot(20px);
+}

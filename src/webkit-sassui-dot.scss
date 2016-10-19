@@ -1,0 +1,11 @@
+/*webkit-sassui-dot Start*/
+@mixin webkit-sassui-dot($inSize:6px,$inColor:#eb4a4b,$inRadius:100px,$inPrefix:'.dot') {
+  font-size: 1em;
+  min-width: #{$inSize};
+  height: #{$inSize};
+  line-height: #{$inSize};
+  display: inline-block;
+  background-color: $inColor;
+  border-radius: $inRadius;
+}
+/*webkit-sassui-dot End*/
