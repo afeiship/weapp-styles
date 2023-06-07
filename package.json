@@ -27,8 +27,8 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@jswork/weapp-wsui-shorty": "^1.0.0",
-    "@jswork/wsui-generators": "^2.0.4"
+    "@jswork/wsui-generators": "^2.0.4",
+    "@jswork/wsui-shorty": "^1.0.3"
   },
   "keywords": [
     "atom",
