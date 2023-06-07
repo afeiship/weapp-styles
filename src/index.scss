@@ -1,6 +1,8 @@
 /*weapp-styles Start*/
-@import 'node_modules/@jswork/weapp-wsui-shorty/dist/index.scss';
-@import 'node_modules/@jswork/wsui-generators/dist/style.scss';
+
+@import "./vars";
+@import '@jswork/wsui-generators/dist/index.scss';
+
 
 $wsui-generators-options: (
   global: '',
@@ -20,4 +22,33 @@ $wsui-generators-options: (
   width-wp: 'wp-'
 ) !default;
 
+@include generator-color($color-map);
+@include generator-background-color($color-map);
+@include generator-border-color($color-map);
+
+@include generator-space($box-list);
+@include generator-font-size($font-list);
+@include generator-border-radius($border-radius-list);
+
+//Generate margin:
+@include generator-box($box-list, 'm');
+@include generator-box($box-list, 'mt');
+@include generator-box($box-list, 'mr');
+@include generator-box($box-list, 'ml');
+@include generator-box($box-list, 'mb');
+@include generator-box($box-list, 'mx');
+@include generator-box($box-list, 'my');
+@include generator-box($box-list, 'p');
+@include generator-box($box-list, 'pt');
+@include generator-box($box-list, 'pr');
+@include generator-box($box-list, 'pb');
+@include generator-box($box-list, 'pl');
+@include generator-box($box-list, 'px');
+@include generator-box($box-list, 'py');
+
+//Generate your own grid:
+@include generator-line($wp-list, #f3f3f3);
+@include generator-line-clamp($line-clamp-list);
+
+@import '@jswork/weapp-wsui-shorty/dist/index.scss';
 /*weapp-styles End*/

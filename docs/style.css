@@ -542,6 +542,36 @@
 }
 
 /* z-index end */
+/*!
+ * name: @jswork/wsui-generators
+ * description: Webkit sass generator mixins.
+ * homepage: https://github.com/afeiship/wsui-generators
+ * version: 2.0.4
+ * date: 2022-07-04 14:25:17
+ * license: MIT
+ */
+/*background-color Start*/
+/*background-color End*/
+/*border-color Start*/
+/*border-color End*/
+/*border-radius Start*/
+/*border-radius End*/
+/*box Start*/
+/*box End*/
+/*color Start*/
+/*color End*/
+/*font-size Start*/
+/*font-size End*/
+/*line-clamp Start*/
+/*line-clamp End*/
+/*line-height Start*/
+/*line-height End*/
+/*line Start*/
+/*line End*/
+/*space Start*/
+/*space End*/
+/*width Start*/
+/*width End*/
 /*weapp-styles End*/
 .test-boilerplate-wsui {
   border: 1px solid red;

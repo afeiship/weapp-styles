@@ -2,7 +2,7 @@
   'use strict';
 
   var gulp = require('gulp');
-  var sass = require('gulp-dart-sass');
+  const sass = require('gulp-sass')(require('sass'));
 
   //styles
   gulp.task('docs', function () {
