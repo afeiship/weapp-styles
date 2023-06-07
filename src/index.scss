@@ -30,24 +30,24 @@ $wsui-generators-options: (
 @include generator-border-radius($border-radius-list);
 
 //Generate margin:
-@include generator-box($box-list, 'm');
-@include generator-box($box-list, 'mt');
-@include generator-box($box-list, 'mr');
-@include generator-box($box-list, 'ml');
-@include generator-box($box-list, 'mb');
-@include generator-box($box-list, 'mx');
-@include generator-box($box-list, 'my');
-@include generator-box($box-list, 'p');
-@include generator-box($box-list, 'pt');
-@include generator-box($box-list, 'pr');
-@include generator-box($box-list, 'pb');
-@include generator-box($box-list, 'pl');
-@include generator-box($box-list, 'px');
-@include generator-box($box-list, 'py');
+@include generator-box($box-list, 'm', 'px', 'weapp');
+@include generator-box($box-list, 'mt', 'px', 'weapp');
+@include generator-box($box-list, 'mr', 'px', 'weapp');
+@include generator-box($box-list, 'ml', 'px', 'weapp');
+@include generator-box($box-list, 'mb', 'px', 'weapp');
+@include generator-box($box-list, 'mx', 'px', 'weapp');
+@include generator-box($box-list, 'my', 'px', 'weapp');
+@include generator-box($box-list, 'p', 'px', 'weapp');
+@include generator-box($box-list, 'pt', 'px', 'weapp');
+@include generator-box($box-list, 'pr', 'px', 'weapp');
+@include generator-box($box-list, 'pb', 'px', 'weapp');
+@include generator-box($box-list, 'pl', 'px', 'weapp');
+@include generator-box($box-list, 'px', 'px', 'weapp');
+@include generator-box($box-list, 'py', 'px', 'weapp');
 
 //Generate your own grid:
 @include generator-line($wp-list, #f3f3f3);
 @include generator-line-clamp($line-clamp-list);
 
-@import '@jswork/wsui-shorty/dist/index.scss';
+@import '@jswork/weapp-wsui-shorty/dist/index.scss';
 /*weapp-styles End*/
