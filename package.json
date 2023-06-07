@@ -28,10 +28,10 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@jswork/weapp-wsui-shorty": "^1.0.2",
     "@jswork/wsui-flexbox": "^1.0.1",
     "@jswork/wsui-generators": "^2.0.5",
-    "@jswork/wsui-layout-trbla": "^1.0.7"
+    "@jswork/wsui-layout-trbla": "^1.0.7",
+    "@jswork/wsui-shorty": "^1.0.5"
   },
   "keywords": [
     "atom",
