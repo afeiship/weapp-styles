@@ -15,8 +15,8 @@
     return gulp
       .src('src/*.scss')
       .pipe(gulp.dest('dist'))
-      .pipe($.jswork.pkgHeader())
       .pipe(sass({ outputStyle: 'expanded', includePaths: SASS_INCLUDE_PATHS }))
+      .pipe($.replace(/> [*]/g, '> view'))
       .pipe($.rename({ basename: 'style' }))
       .pipe(gulp.dest('dist'));
   });
