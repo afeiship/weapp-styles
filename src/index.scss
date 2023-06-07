@@ -31,6 +31,8 @@
 //Generate your own grid:
 @include generator-line($wp-list, #f3f3f3);
 @include generator-line-clamp($line-clamp-list);
+@include generator-width-w1($wp-list);
+@include generator-width-wp($wp-list);
 
 @import '@jswork/wsui-shorty/dist/index.weapp.scss';
 /*weapp-styles End*/
