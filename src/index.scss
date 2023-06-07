@@ -1,28 +1,8 @@
 /* weapp-styles Start*/
-
-@import '@jswork/wsui-generators/dist/index.scss';
-@import '@jswork/wsui-layout-trbla/dist/index.scss';
-@import '@jswork/wsui-flexbox/dist/index.scss';
-
 @import './variables';
-
-$wsui-generators-options: (
-  global: '',
-  background-color: 'bg-',
-  border-color: 'bcd-',
-  border-radius: 'bdr-',
-  box: '-',
-  color: 'c-',
-  font-size: 'f-',
-  font-weight: 'fw-',
-  line-clamp: 'lc-',
-  line-height: 'lh-',
-  height-line-height: 'hlh-',
-  line: 'line-',
-  space: 'sp-',
-  width-w1: 'w1-',
-  width-wp: 'wp-',
-) !default;
+@import '@jswork/wsui-generators/dist/index.scss';
+@import '@jswork/wsui-layout-trbla/dist/index.weapp.scss';
+@import '@jswork/wsui-flexbox/dist/index.scss';
 
 @include generator-color($color-map);
 @include generator-background-color($color-map);
