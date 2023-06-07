@@ -1,0 +1,548 @@
+@charset "UTF-8";
+/*weapp-styles Start*/ /*align Start*/
+.vat {
+  vertical-align: top;
+}
+
+.vab {
+  vertical-align: bottom;
+}
+
+.vam {
+  vertical-align: middle;
+}
+
+/*align End*/
+/*background Start*/
+.bgn {
+  background: none !important;
+}
+
+/*background End*/
+/*border Start*/
+.bdn {
+  border: none !important;
+}
+
+/*border End*/
+/**box-sizing Start**/
+.bs-b {
+  box-sizing: border-box;
+}
+
+.bs-c {
+  box-sizing: content-box;
+}
+
+.bgdn {
+  border: none !important;
+  background: none !important;
+}
+
+/**box-sizing  End**/
+.wh100 {
+  width: 100%;
+  height: 100%;
+}
+
+/**clearfix Start**/
+/**
+ * http://nicolasgallagher.com/micro-clearfix-hack/
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ * 3. Reference:http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clfix:after {
+  clear: both;
+  content: "​";
+  display: block;
+  height: 0;
+}
+
+/**clearfix  End**/
+.cd {
+  cursor: default;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.pn {
+  pointer-events: none;
+}
+
+.cRed {
+  border: 1px solid #f00;
+}
+
+.cGreen {
+  border: 1px solid #0f0;
+}
+
+.cBlue {
+  border: 1px solid #00f;
+}
+
+/**display Start**/
+.db {
+  display: block;
+}
+
+.di {
+  display: inline;
+}
+
+.dn {
+  display: none;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.dtb {
+  display: table;
+}
+
+.dflex {
+  display: flex;
+}
+
+.dtbc {
+  display: table-cell;
+}
+
+/**display  End**/
+/**float Start**/
+.l {
+  float: left;
+}
+
+.r {
+  float: right;
+}
+
+/**float  End**/
+/*font-size Start*/
+.f0 {
+  font-size: 0;
+}
+
+/*font-size End*/
+.h100 {
+  height: 100%;
+}
+
+.h100v {
+  height: 100vh;
+}
+
+.min-h100 {
+  min-height: 100%;
+}
+
+.max-h100 {
+  max-height: 100%;
+}
+
+/**margin Start**/
+.auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.m0a {
+  margin: 0 auto;
+}
+
+.m0 {
+  margin: 0 !important;
+}
+
+.mt0 {
+  margin-top: 0 !important;
+}
+
+.mr0 {
+  margin-right: 0 !important;
+}
+
+.mb0 {
+  margin-bottom: 0 !important;
+}
+
+.ml0 {
+  margin-left: 0 !important;
+}
+
+/*margin End*/
+.ovh {
+  overflow: hidden;
+}
+
+.ovh-x {
+  overflow-x: hidden;
+}
+
+.ovh-y {
+  overflow-y: hidden;
+}
+
+.ovs {
+  overflow: scroll;
+}
+
+.ovs-x {
+  overflow-x: scroll;
+}
+
+.ovs-y {
+  overflow-y: scroll;
+}
+
+.ova {
+  overflow: auto;
+}
+
+/*padding Start*/
+.p0 {
+  padding: 0 !important;
+}
+
+.pt0 {
+  padding-top: 0 !important;
+}
+
+.pr0 {
+  padding-right: 0 !important;
+}
+
+.pb0 {
+  padding-bottom: 0 !important;
+}
+
+.pl0 {
+  padding-left: 0 !important;
+}
+
+/*padding End*/
+/**position Start**/
+.rel {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.abs {
+  position: absolute;
+}
+
+.t0 {
+  top: 0 !important;
+}
+
+.r0 {
+  right: 0 !important;
+}
+
+.b0 {
+  bottom: 0 !important;
+}
+
+.l0 {
+  left: 0 !important;
+}
+
+.lr0, .p-bottom, .p-top {
+  left: 0;
+  right: 0;
+}
+
+.tb0 {
+  top: 0;
+  bottom: 0;
+}
+
+.tr0 {
+  right: 0;
+  top: 0;
+}
+
+.rb0 {
+  right: 0;
+  bottom: 0;
+}
+
+.bl0 {
+  left: 0;
+  bottom: 0;
+}
+
+.lt0 {
+  left: 0;
+  top: 0;
+}
+
+.trbl0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.p-top {
+  top: 0;
+}
+
+.p-bottom {
+  bottom: 0;
+}
+
+.lt5 {
+  left: 50%;
+  top: 50%;
+}
+
+.t375 {
+  top: 37.5%;
+}
+
+.t125 {
+  top: 12.5%;
+}
+
+.t50 {
+  top: 50%;
+}
+
+.r50 {
+  right: 50%;
+}
+
+.b50 {
+  bottom: 50%;
+}
+
+.l50 {
+  left: 50%;
+}
+
+.t100 {
+  top: 100%;
+}
+
+.r100 {
+  right: 100%;
+}
+
+.b100 {
+  bottom: 100%;
+}
+
+.l100 {
+  left: 100%;
+}
+
+/**position  End**/
+/**shadow-depth Start**/
+.shadow-1 {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-2 {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+}
+
+.shadow-3 {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+.shadow-4 {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.19);
+}
+
+.shadow-5 {
+  box-shadow: 0 14px 45px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-6 {
+  box-shadow: 0 19px 60px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-in-1 {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-in-2 {
+  box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.12);
+}
+
+.shadow-in-3 {
+  box-shadow: inset 0 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+.shadow-in-4 {
+  box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.19);
+}
+
+.shadow-in-5 {
+  box-shadow: inset 0 14px 45px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-in-6 {
+  box-shadow: inset 0 19px 60px rgba(0, 0, 0, 0.3);
+}
+
+/**shadow-depth  End**/
+.circle {
+  border-radius: 50%;
+}
+
+.round {
+  border-radius: 1000px;
+}
+
+.radius-t0 {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.radius-r0 {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.radius-b0 {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.radius-l0 {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+/**status Start**/
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  user-select: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/**status  End**/
+/**text-decoration Start**/
+.tdn {
+  text-decoration: none;
+}
+
+.tdu {
+  text-decoration: underline;
+}
+
+.tdlh {
+  text-decoration: line-through;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tl {
+  text-align: left;
+}
+
+.tr {
+  text-align: right;
+}
+
+.ell {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.b {
+  font-weight: bold;
+}
+
+.n {
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**text-decoration  End**/
+/**transparent Start**/
+.tran-text {
+  color: transparent;
+}
+
+.tran-bg {
+  background: transparent;
+}
+
+.vis-v {
+  visibility: visible;
+}
+
+.vis-h {
+  visibility: hidden;
+}
+
+/**transparent  End**/
+.w100 {
+  width: 100%;
+}
+
+.w100v {
+  width: 100vw;
+}
+
+.min-w100 {
+  min-width: 100%;
+}
+
+.max-w100 {
+  max-width: 100%;
+}
+
+/* z-index start */
+.z1 {
+  z-index: 1;
+}
+
+.z2 {
+  z-index: 2;
+}
+
+.z3 {
+  z-index: 3;
+}
+
+/* z-index end */
+/*weapp-styles End*/
+.test-boilerplate-wsui {
+  border: 1px solid red;
+}

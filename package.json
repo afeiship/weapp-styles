@@ -1,19 +1,32 @@
 {
-  "name": "webkit-sassui-dot",
-  "version": "0.0.0",
-  "description": "Webkit sass ui module for dot.",
-  "homepage": "https://github.com/afeiship/webkit-sassui-dot",
-  "author": {
-    "name": "afei",
-    "email": "1290657123@qq.com"
+  "name": "@jswork/weapp-styles",
+  "version": "1.0.0",
+  "description": "Weapp styles all in one.",
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp docs && serve docs",
+    "release": "release-it"
   },
+  "main": "dist/index.scss",
   "license": "MIT",
   "devDependencies": {
-    "del": "^2.2.1",
-    "gulp": "^3.9.1",
-    "gulp-load-plugins": "^1.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.2",
-    "yargs": "^4.7.1"
+    "@jswork/gulp-pkg-header": "^1.0.4",
+    "autoprefixer": "^10.0.2",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-load-plugins": "^2.0.5",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "postcss": "^8.1.10",
+    "release-it": "^14.2.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "@jswork/weapp-wsui-shorty": "^1.0.0",
+    "@jswork/wsui-generators": "^2.0.4"
   }
 }
