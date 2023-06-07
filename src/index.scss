@@ -49,5 +49,5 @@ $wsui-generators-options: (
 @include generator-line($wp-list, #f3f3f3);
 @include generator-line-clamp($line-clamp-list);
 
-@import '@jswork/weapp-wsui-shorty/dist/index.scss';
+@import '@jswork/wsui-shorty/dist/index.scss';
 /*weapp-styles End*/
