@@ -1,6 +1,9 @@
 /* weapp-styles Start*/
 
 @import '@jswork/wsui-generators/dist/index.scss';
+@import '@jswork/wsui-layout-trbla/dist/index.scss';
+@import '@jswork/wsui-flexbox/dist/index.scss';
+
 @import './variables';
 
 $wsui-generators-options: (
