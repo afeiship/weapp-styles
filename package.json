@@ -1,6 +1,6 @@
 {
   "name": "@jswork/weapp-styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Weapp styles all in one.",
   "scripts": {
     "build": "gulp",
@@ -29,5 +29,11 @@
   "dependencies": {
     "@jswork/weapp-wsui-shorty": "^1.0.0",
     "@jswork/wsui-generators": "^2.0.4"
-  }
+  },
+  "keywords": [
+    "atom",
+    "styles",
+    "tailwind",
+    "weapp"
+  ]
 }
