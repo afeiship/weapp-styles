@@ -1,8 +1,7 @@
 /*weapp-styles Start*/
 
-@import "./vars";
 @import '@jswork/wsui-generators/dist/index.scss';
-
+@import './variables';
 
 $wsui-generators-options: (
   global: '',
@@ -19,7 +18,7 @@ $wsui-generators-options: (
   line: 'line-',
   space: 'sp-',
   width-w1: 'w1-',
-  width-wp: 'wp-'
+  width-wp: 'wp-',
 ) !default;
 
 @include generator-color($color-map);
