@@ -8,7 +8,7 @@
 @include generator-background-color($color-map);
 @include generator-border-color($color-map);
 
-@include generator-space($box-list);
+@include generator-blank($box-list);
 @include generator-font-size($font-list);
 @include generator-border-radius($border-radius-list);
 
@@ -31,7 +31,7 @@
 //Generate your own grid:
 @include generator-line($wp-list, #f3f3f3);
 @include generator-line-clamp($line-clamp-list);
-@include generator-width-w1($wp-list);
+@include generator-width-w1($w1-list);
 @include generator-width-wp($wp-list);
 
 @import '@jswork/wsui-shorty/dist/index.weapp.scss';
