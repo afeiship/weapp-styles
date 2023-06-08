@@ -29,6 +29,8 @@
 @include generator-box($box-list, 'px', 'px', 'weapp');
 @include generator-box($box-list, 'py', 'px', 'weapp');
 
+@include generator-gap($gap-list);
+
 //Generate your own grid:
 @include generator-line($wp-list, #f3f3f3);
 @include generator-line-clamp($line-clamp-list);
