@@ -1,6 +1,6 @@
 {
   "name": "@jswork/weapp-styles",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "Weapp styles all in one.",
   "scripts": {
     "build": "gulp",
