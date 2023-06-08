@@ -2,7 +2,7 @@
 @import './variables';
 @import '@jswork/wsui-generators/dist/index.scss';
 @import '@jswork/wsui-layout-trbla/dist/index.weapp.scss';
-@import '@jswork/wsui-flexbox/dist/index.scss';
+@import '@jswork/wsui-flexbox/dist/index.weapp.scss';
 
 @include generator-color($color-map);
 @include generator-background-color($color-map);
