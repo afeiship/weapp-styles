@@ -1,6 +1,6 @@
 {
   "name": "@jswork/weapp-styles",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Weapp styles all in one.",
   "scripts": {
     "build": "gulp",
@@ -28,7 +28,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@jswork/wsui-flexbox": "^1.0.1",
+    "@jswork/wsui-flexbox": "^1.0.3",
     "@jswork/wsui-generators": "^2.0.10",
     "@jswork/wsui-layout-trbla": "^1.0.8",
     "@jswork/wsui-shorty": "^1.0.5"
