@@ -10,6 +10,7 @@
 
 @include generator-blank($box-list);
 @include generator-font-size($font-list);
+@include generator-font-family($font-family-map);
 @include generator-border-radius($border-radius-list);
 
 //Generate margin:
