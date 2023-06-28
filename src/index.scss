@@ -38,7 +38,7 @@
 @include generator-width-wp($wp-list);
 
 // icon
-@include generator-icon($font-list);
+@include generator-icon($icon-list);
 
 @import '@jswork/wsui-shorty/dist/index.weapp.scss';
 /*weapp-styles End*/
