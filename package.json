@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@jswork/wsui-flexbox": "^1.0.4",
-    "@jswork/wsui-generators": "^2.0.10",
+    "@jswork/wsui-generators": "^2.0.11",
     "@jswork/wsui-layout-trbla": "^1.0.8",
     "@jswork/wsui-shorty": "^1.0.6"
   },

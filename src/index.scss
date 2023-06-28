@@ -31,11 +31,14 @@
 
 @include generator-gap($gap-list);
 
-//Generate your own grid:
+// Generate your own grid:
 @include generator-line($wp-list, #f3f3f3);
 @include generator-line-clamp($line-clamp-list);
 @include generator-width-w1($w1-list);
 @include generator-width-wp($wp-list);
+
+// icon
+@include generator-icon($font-list);
 
 @import '@jswork/wsui-shorty/dist/index.weapp.scss';
 /*weapp-styles End*/
