@@ -1,6 +1,6 @@
 {
   "name": "@jswork/weapp-styles",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "Weapp styles all in one.",
   "scripts": {
     "build": "gulp",
@@ -31,7 +31,7 @@
     "@jswork/wsui-flexbox": "^1.0.5",
     "@jswork/wsui-generators": "^2.0.13",
     "@jswork/wsui-layout-trbla": "^1.0.8",
-    "@jswork/wsui-shorty": "^1.0.6"
+    "@jswork/wsui-shorty": "^1.0.7"
   },
   "keywords": [
     "atom",
